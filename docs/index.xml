@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jacob Sowder</title>
+    <title>About Me on Jacob Sowder</title>
     <link>/</link>
-    <description>Recent content on Jacob Sowder</description>
+    <description>Recent content in About Me on Jacob Sowder</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 18 Apr 2018 00:00:00 +0000</lastBuildDate>
     
@@ -101,10 +101,10 @@ Conclusion Lorem ipsum dolor sit amet, consectetur adipisicing elit.</descriptio
     
     <item>
       <title>About This Site</title>
-      <link>/page/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/page/about/</guid>
+      <guid>/about/</guid>
       <description>Hello, I&amp;rsquo;m an example site that uses the Hugo Morphism theme.</description>
     </item>
     
