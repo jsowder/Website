@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Hugo-Envisioned</title>
+    <link>/categories/test/</link>
+    <description>Recent content in test on Hugo-Envisioned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 18 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tufte Handout</title>
+      <link>/post/tufte-handout/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tufte-handout/</guid>
+      <description>Introduction The Tufte handout style is a style that Edward Tufte uses in his books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography. This style has been implemented in LaTeX and HTML/CSS1, respectively. We have ported both implementations into the tufte package. If you want LaTeX/PDF output, you may use the tufte_handout format for handouts, and tufte_book for books.</description>
+    </item>
+    
+    <item>
+      <title>Just another sample post</title>
+      <link>/post/new/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/new/</guid>
+      <description>First Heading Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.
+Sub Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id?
+Conclusion Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+    </item>
+    
+  </channel>
+</rss>

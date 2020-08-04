@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/test/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tufte/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/tufte-handout/</loc>
+    <lastmod>2018-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/rmd-test/</loc>
+    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/testing-rmd/</loc>
+    <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/tufte-features/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/latex/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/mathjax/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/tufte-css/</loc>
+    <lastmod>2016-02-20T13:56:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/nodate/</loc>
+    <lastmod>2015-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/blockquote/</loc>
+    <lastmod>2015-01-19T23:57:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/fun/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/new/</loc>
+    <lastmod>2014-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/boring/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/old/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/template/</loc>
+    <lastmod>2014-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/groups/</loc>
+  </url>
+  
+  <url>
+    <loc>/page/</loc>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+  </url>
+  
+</urlset>

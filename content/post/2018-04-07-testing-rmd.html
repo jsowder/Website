@@ -1,0 +1,98 @@
+---
+title: Testing Rmd
+subtitle: How'd you like this subtitle 25
+author: ~
+description: Testing Rmd description 1.536124
+date: '2018-04-07'
+slug: testing-rmd
+categories: ['rmd test']
+math: true
+output:
+  tufte::tufte_html:
+    toc: true
+    fig_width: 6
+    dev: "svg"
+
+---
+
+
+
+<p><label for="tufte-mn-" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-" class="margin-toggle"><span class="marginnote"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/300px-Colored_neural_network.svg.png" alt="neural-network" /></span></p>
+<p>This is to test the <code>tufte</code> packages integration with this <code>hugo-envisioned</code> blogdown theme.</p>
+{{% tweet "980566101124722688" %}}
+<p>Now let’s try some R code:</p>
+<pre class="r"><code>head(iris, 3) %&gt;% knitr::kable(caption = &quot;Iris dataset&quot;)</code></pre>
+<table>
+<caption><span id="tab:code-test">Table 1: </span>Iris dataset</caption>
+<thead>
+<tr class="header">
+<th align="right">Sepal.Length</th>
+<th align="right">Sepal.Width</th>
+<th align="right">Petal.Length</th>
+<th align="right">Petal.Width</th>
+<th align="left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.7</td>
+<td align="right">3.2</td>
+<td align="right">1.3</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+</tbody>
+</table>
+<p>This is an attempt at a margin figure…</p>
+<pre class="r"><code>library(ggplot2)
+mtcars2 &lt;- mtcars
+mtcars2$am &lt;- factor(mtcars$am, labels = c(&#39;automatic&#39;, &#39;manual&#39;))
+
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() + geom_smooth() +
+  theme(legend.position = &#39;bottom&#39;)</code></pre>
+<div class="figure"><span id="fig:fig-margin"></span>
+<img src="/post/2018-04-07-testing-rmd_files/figure-html/fig-margin-1.png" alt="MPG vs horsepower, colored by transmission." width="336" />
+<p class="caption">
+Figure 1: MPG vs horsepower, colored by transmission.
+</p>
+</div>
+<p>Every few weeks in 2017 there was a new breakthrough application of neural networks. If you’re reading this, then I probably don’t need to list them. So eventually the ridiculous general ability of these algorithms encouraged me to dig in, so by the end of 2017 I decided it was time to jump on the deep learning bandwagon. This was just around the same time <a href="http://deeplearning.ai/">deeplearning.ai</a> was launched by Andrew Ng. Given Ng’s reputation, it was a no brainer that this set of courses was the way forward.</p>
+<div id="trying-to-render" class="section level2">
+<h2>Trying to render</h2>
+<pre class="marginfigure"><code>We know from _the first fundamental theorem of calculus_ that for $x$ in $[a, b]$:
+
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x)$$</code></pre>
+<p>Here comes a full width figure!</p>
+<pre class="r"><code>ggplot(diamonds, aes(carat, price)) + geom_smooth() +
+  facet_grid(~ cut)</code></pre>
+<div class="figure"><span id="fig:fig-fullwidth"></span>
+<img src="/post/2018-04-07-testing-rmd_files/figure-html/fig-fullwidth-1.png" alt="A full width figure." width="960" />
+<p class="caption">
+Figure 2: A full width figure.
+</p>
+</div>
+<p>This figure goes in the main column</p>
+<pre class="r"><code>ggplot(diamonds, aes(cut, price)) + geom_boxplot()</code></pre>
+<div class="figure"><span id="fig:fig-main"></span>
+<img src="/post/2018-04-07-testing-rmd_files/figure-html/fig-main-1.png" alt="A figure in the main column." width="672" />
+<p class="caption">
+Figure 3: A figure in the main column.
+</p>
+</div>
+<pre class="marginfigure"><code>This is a margin figure processed by knitr please god...</code></pre>
+</div>
