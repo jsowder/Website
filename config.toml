@@ -6,7 +6,8 @@ canonifyurls = true
 baseurl = "jsowder.github.io/"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 theme = "hugo-envisioned"
-title = "Hugo-Envisioned"
+theme = "hugo-envisioned"
+title = "Jacob Sowder"
 
 [taxonomies]
   category = "categories" 
@@ -15,44 +16,52 @@ title = "Hugo-Envisioned"
   tag = "tags"
 
 [params]
-  subtitle = "Subtitle goes here."
-  copyrightHolder = "Copyright Holder"
-  showPoweredBy = true
+  subtitle = ""
+  copyrightHolder = ""
+  showPoweredBy = false
+  showCopyright = false
+  simpleHome = "Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque."
 
 # -----------------------------------------------------------------------
 # Navigation menu 
 # -----------------------------------------------------------------------
 [[menu.nav]]
-  name = "Home"
+  name = "About"
 # pre = "<i class='fa fa-home fa-lg'></i> "
   weight = -110 
   identifier = "home"
   url = "/"
 [[menu.nav]]
-  name = "Posts"
-# pre = "<i class='fa fa-book fa-lg'></i> "
+  name = "Resume"
+# pre = "<i class='fa fa-home fa-lg'></i> "
   weight = -100 
-  identifier = "posts"
-  url = "/post"
-[[menu.nav]]
-  name = "Categories"
+  identifier = "resume"
+  url = "/resume.pdf"
+#[[menu.nav]]
+#  name = "Posts"
+# pre = "<i class='fa fa-book fa-lg'></i> "
+#  weight = -100 
+#  identifier = "posts"
+#  url = "/post"
+#[[menu.nav]]
+#  name = "Categories"
 # pre = "<i class='fa fa-tags fa-lg'></i> "
-  weight = -90 
-  identifier = "categories"
-  url = "/categories"
+#  weight = -90 
+#  identifier = "categories"
+#  url = "/categories"
 
 # -----------------------------------------------------------------------
 # Footer menu 
 # -----------------------------------------------------------------------
 [[menu.footer]]
   name = ""
+  pre = "<i class='fa fa-linkedin fa-2x'></i> "
+  weight = -90 
+  identifier = "linkedin"
+  url = "https://www.linkedin.com/in/jacobsowder/"
+[[menu.footer]]
+  name = ""
   pre = "<i class='fa fa-github fa-2x'></i> "
   weight = -100 
   identifier = "github"
-  url = "https://github.com/dandermotj/hugo-envisioned"
-[[menu.footer]]
-  name = ""
-  pre = "<i class='fa fa-twitter fa-2x'></i> "
-  weight = -90 
-  identifier = "twitter"
-  url = "https://twitter.com"
+  url = "https://github.com/jsowder"
