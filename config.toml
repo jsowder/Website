@@ -3,9 +3,8 @@ layoutdir = "layouts"
 publishdir = "docs"
 builddrafts = true 
 canonifyurls = true
-baseurl = "jsowder.github.io/"
+baseurl = "/"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-theme = "hugo-envisioned"
 theme = "hugo-envisioned"
 title = "Jacob Sowder"
 
