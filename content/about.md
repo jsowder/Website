@@ -1,6 +1,6 @@
 ---
 hasMath: false
-title: About This Site
+title: JS
 ---
 
 Hello, I'm an example site that uses the Hugo Morphism theme.
