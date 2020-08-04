@@ -1,0 +1,3 @@
+[submodule "themes/hugo-envisioned"]
+	path = themes/hugo-envisioned
+	url = https://github.com/jsowder/hugo-envisioned
