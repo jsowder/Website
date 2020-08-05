@@ -26,28 +26,27 @@ title = "Jacob Sowder"
 # -----------------------------------------------------------------------
 [[menu.nav]]
   name = "Email"
-# pre = "<i class='fa fa-home fa-lg'></i> "
   weight = -100 
   identifier = "email"
   url = "mailto:jacobsowder@gmail.com?subject=Nice to meet you, Jacob!"
+  
 [[menu.nav]]
   name = "Resume"
-# pre = "<i class='fa fa-home fa-lg'></i> "
   weight = -100 
   identifier = "resume"
   url = "/resume.pdf"
-#[[menu.nav]]
-#  name = "Posts"
-# pre = "<i class='fa fa-book fa-lg'></i> "
-#  weight = -100 
-#  identifier = "posts"
-#  url = "/post"
-#[[menu.nav]]
-#  name = "Categories"
-# pre = "<i class='fa fa-tags fa-lg'></i> "
-#  weight = -90 
-#  identifier = "categories"
-#  url = "/categories"
+  
+[[menu.nav]]
+  pre = "<i class='fa fa-github fa-lg'></i> "
+  weight = -100 
+  identifier = "github"
+  url = "https://github.com/jsowder"
+  
+[[menu.nav]]
+  pre = "<i class='fa fa-linkedin fa-lg'></i> "
+  weight = -100 
+  identifier = "linked-in"
+  url = "https://www.linkedin.com/in/jacobsowder/"
 
 # -----------------------------------------------------------------------
 # Footer menu 
