@@ -25,12 +25,6 @@ title = "Jacob Sowder"
 # Navigation menu 
 # -----------------------------------------------------------------------
 [[menu.nav]]
-  name = "About"
-# pre = "<i class='fa fa-home fa-lg'></i> "
-  weight = -110 
-  identifier = "home"
-  url = "/"
-[[menu.nav]]
   name = "Email"
 # pre = "<i class='fa fa-home fa-lg'></i> "
   weight = -100 
