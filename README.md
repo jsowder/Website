@@ -6,4 +6,8 @@ Hello there, welcome to my site's source code!
 
 It's powered by [Hugo](https://gohugo.io) and uses a [customized theme](https://github.com/jsowder/hugo-envisioned). I don't have a strong interest in blogging right now, but it has that capacity if I have a stroke of inspiration.
 
-Enjoy!
+How it looks:
+
+![Preview](preview.png)
+
+[Check it out here.](https://jsowder.github.io)
