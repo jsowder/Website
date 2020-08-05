@@ -1,6 +1,8 @@
 ---
 hasMath: false
 title: About Me
+description: Portfolio for Jacob Sowder
+keywords: [sowder, jacob sowder, analyst, developer, R, Python, data]
 ---
 
 Thanks for dropping in. 
