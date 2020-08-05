@@ -1,6 +1,6 @@
 ---
 hasMath: false
-title: About Me
+title: About
 description: Portfolio for Jacob Sowder
 keywords: [sowder, jacob sowder, analyst, developer, R, Python, data]
 ---
