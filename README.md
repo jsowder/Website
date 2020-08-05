@@ -10,4 +10,4 @@ How it looks:
 
 ![Preview](preview.png)
 
-[Check it out here.](https://jsowder.github.io)
+[Check it out!](https://jsowder.github.io)
