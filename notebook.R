@@ -5,7 +5,6 @@ options(
   "blogdown.generator.server" = TRUE  # Lets SASS recompile
 )
 
-blogdown::new_site(theme = "1danjordan/hugo-envisioned")
 blogdown::serve_site()
 
 blogdown::new_post("", ext = ".Rmd")
