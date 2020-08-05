@@ -31,6 +31,12 @@ title = "Jacob Sowder"
   identifier = "home"
   url = "/"
 [[menu.nav]]
+  name = "Email"
+# pre = "<i class='fa fa-home fa-lg'></i> "
+  weight = -100 
+  identifier = "email"
+  url = "mailto:jacobsowder@gmail.com?subject=Nice to meet you, Jacob!"
+[[menu.nav]]
   name = "Resume"
 # pre = "<i class='fa fa-home fa-lg'></i> "
   weight = -100 
