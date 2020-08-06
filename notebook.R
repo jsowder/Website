@@ -6,6 +6,7 @@ options(
 )
 
 blogdown::serve_site()
+blogdown::hugo_build()
 
 blogdown::new_post("", ext = ".Rmd")
 blogdown::new_post("", ext = ".md")
