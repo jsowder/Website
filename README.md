@@ -9,5 +9,3 @@ It's powered by [Hugo](https://gohugo.io) and uses a [customized theme](https://
 How it looks:
 
 ![Preview](preview.png)
-
-[Check it out!](https://jsowder.github.io)
