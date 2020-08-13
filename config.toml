@@ -29,7 +29,7 @@ title = "Jacob Sowder"
   name = "Email"
   weight = -100 
   identifier = "email"
-  url = "mailto:jacobsowder@gmail.com?subject=Nice to meet you, Jacob!"
+  url = "mailto:jacobsowder@gmail.com?subject=Nice to meet you!"
   
 [[menu.nav]]
   name = "Resume"
